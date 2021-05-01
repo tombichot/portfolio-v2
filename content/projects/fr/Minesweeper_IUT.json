@@ -1,0 +1,19 @@
+{
+	"ID": 2,
+	"Title" : "Démineur",
+	"Summary":"Jeu du démineur en Java, projet tuteuré développé avec 6 autres étudiants pendant mon DUT.",
+  "Description": "Jeu du démineur en Java, projet étudiant développé avec 6 autres étudiants pendant mon DUT. \n\n C'est le premier gros projet développé pendant mon DUT. Nous étions en effet 7 étudiants sur ce projet qui était tuteuré. J'étais le chef de ce projet. J'étais également chargé du design du jeu et du développement de quelques fonctionnalités. \n\n C'est un version classique du démineur avec 3 niveaux de difficultés, des sons et une gestion des scores. Ce dont je me souviens surtout est la gestion du projet qui était un petit défis à l'époque étant donné que nous étions 7 étudiants. Il est important d'être précis dans la répartition des tâches et rigoureux dans leur suivi pour ne pas perdre le fil et être efficace dans ce genre de cas. De ce point de vue, c'était un projet très enrichissant.",
+	"Date": 2017,
+  "Period": "Février 2017 - Juin 2017",
+ 	"Type": "Développement d'un jeu",
+	"Personal": false,
+  "Category": "Dev",
+  "Tags": ["#étudiant", "#java", "#swing", "#jeu"],
+	"Images": [
+		[0, "minesweeper1.jpg", "Capture d'écran du menu du jeu"],
+		[1, "minesweeper2.jpg", "Capture d'écran du mode débutant"],
+		[2, "minesweeper3.jpg", "Capture d'écran du mode normal"],
+		[3, "minesweeper4.jpg", "Capture d'écran du mode expert"]
+	],
+  "Hidden": false
+}

@@ -1,0 +1,32 @@
+{
+  "navmenu": {
+    "about": "À Propos",
+    "languages": "Langues",
+    "french": "Français",
+    "english": "Anglais",
+    "frenchflag": "Drapeau français",
+    "englishflag": "Drapeau anglais",
+    "darkmode": "Mode sombre",
+    "lightmode": "Mode claire",
+    "theme": "Thème",
+    "settings": "Paramètres"
+  },
+  "presentation": {
+    "logodescription": "Création personnelle représentant une biche en référence à mon nom de famille.",
+    "mypresentation": "Étudiant en informatique, gamer et grand rêveur. J'adore la tech et la science !",
+    "profilepicture": "Ma photo de profil stylisée.",
+    "resume": "Mon CV",
+    "hi": "Bonjour !",
+    "welcome": "Bienvenue !",
+    "cvlink": "/Thomas_BICHOT_CV_2021_FR.pdf",
+    "linkedin": "Mon profil LinkedIn"
+  },
+  "portfolio": {
+    "all": "Tout",
+    "more": "Plus",
+    "creation" : "Créations",
+    "development": "Développement"
+  },
+  "infos": "Développé par Thomas Bichot avec NuxtJS et TailwindCSS.",
+  "copyright": "©2021 Thomas Bichot. Tous droits réservés."
+}

@@ -1,0 +1,16 @@
+{
+	"ID": 9,
+	"Title" : "ClickNPlan",
+	"Summary":"Logo créé pour l'application ClickNPlan, développée par 2 étudiants de l'UTBM.",
+  "Description": "Logo créé pour l'application ClickNPlan, une application de gestion d'emploi du temps développée par 2 étudiants de mon université. Elle sera notamment utilisée par les professeurs pour gérer les emplois du temps de master et d'alternance. \n\n Ce logo est une création personnelle, puis amélioré sur la base de propositions.",
+	"Date": 2020,
+  "Period": "Septembre 2020",
+ 	"Type": "Création de logo",
+	"Personal": true,
+  "Category": "Design",
+  "Tags": ["#personnel", "#affinitydesigner", "#logo"],
+	"Images": [
+		[0, "clicknplan.jpg", "Logo de ClickNPlan"]
+	],
+  "Hidden": true
+}

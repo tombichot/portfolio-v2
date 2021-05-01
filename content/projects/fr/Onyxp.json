@@ -1,0 +1,20 @@
+{
+	"ID": 10,
+	"Title" : "OnyXP",
+	"Summary":"Développement de mini-jeux et fonctionnalités pour le serious game OnyXP (stage et freelance).",
+	"Description": "C'est en 2018 que je me suis lancé dans l'aventure OnyXP lors de mon stage de fin de DUT. OnyXP est un serious game développé par la startup Par Cours et Par Thèmes située à Belfort. Il a pour but de réconcilier les jeunes avec l'orientation, et cela, par le jeu ! \n\n Durant mon premier stage, j'ai été chargé de développer des mini-jeux permettant de faire découvrir des métiers et tester des compétences. J'en ai développé quelques-uns, mais le principal est celui du métier de Technicien d'Intervention Polyvalant chez Enedis. C'est mon premier jeu totalement en 3D développé avec Unity. La création d'un jeu en 3D s'appréhende un peu différemment : il y les déplacements, la caméra, les collisions à gérer... Tout cela à été un véritable défi en tant que débutant avec cet outil. \n\n Ce n'était que le début de l'aventure pour moi. En effet, suite à ce stage, j'ai continué à travailler avec cette formidable équipe en tant que développeur freelance et c'est naturellement que je me suis tourné vers eux pour mon premier stage long à l'UTBM. Durant ce deuxième stage, j'ai participé encore plus activement au développement de l'application car j'ai pu, en plus de développer des mini-jeux, développer de nouvelles fonctionnalités, et même être en charge de mises à jour, de la programmation jusqu'à la publication sur iOS et Android. J'ai notamment développé la nouvelle page d'inscription de l'application, une course-poursuite en 3D ou encore le mini-jeu pour le métier de Game Designer. J'ai également été chargé du portage en WebGL, apportant son lot de défis notamment sur la gestion des données. \n\n Je travaille actuellement toujours sur OnyXP dans le cadre d'un Projet Industriel Innovant permis par mon école. \n\n C'est un projet enrichissant, j'ai développé beaucoup de compétences notamment sur Unity3D, mais aussi sur la manière de travailler en entreprise et sur la communication. \n\n Dès mon premier entretien je me suis tout de suite sentie intégré à l'équipe. Je ne pouvais pas espérer mieux comme première expérience professionnelle en tant que développeur. Je les remercie encore pour leur entière confiance ! \n\n Site : <a href=\"https://par-cours-par-themes.com\">https://par-cours-par-themes.com</a> \n\n @2021 Par Cours & Par Thèmes. Tous droits réservés.",
+	"Date": 2020,
+  "Period": "Avril 2018 - En cours...",
+	"Type": "Développement d'un serious game",
+	"Personal": false,
+  "Category": "Dev",
+  "Tags": ["#stage", "#freelance", "#unity3d", "#jeu"],
+	"Images": [
+		[0, "onyxp.jpg", "Logo d'OnyXP.io"],
+    [1, "onyxp2.jpg", "Capture d'écran du mini-jeu du Technicien d'Intervention Polyvalent"],
+    [2, "onyxp3.jpg", "Capture de la scène de la course poursuite"],
+    [3, "onyxp4.jpg", "Capture d'écran du mini-jeu du Game Designer"],
+    [4, "onyxp5.jpg", "Capture d'écran du mini-jeu du Game Designer"]
+	],
+  "Hidden": false
+}

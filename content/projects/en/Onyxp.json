@@ -1,0 +1,20 @@
+{
+  "ID": 10,
+  "Title" : "OnyXP",
+  "Summary":"Development of mini-games and features for the serious game OnyXP (internship and freelance).",
+  "Description": "It was in 2018 that I launched into the OnyXP adventure during my internship at the end of my DUT. OnyXP is a serious game developed by the startup Par Cours et Par Thèmes located in Belfort (France). Its goal is to reconcile young people with guidance, and this, through play! \n\n During my first internship, I was in charge of developing mini-games to help discover jobs and test skills. I developed a few of them, but the main one was about the job of Multipurpose Intervention Technician at Enedis. This is my first game developed entirely in 3D with Unity. The creation of a 3D game is a bit different: there are the movements, the camera, the collisions to manage... All this was a real challenge as a beginner with this tool. \n\n It was only the beginning of the adventure for me. Indeed, after this internship, I continued to work with this great team as a freelance developer and it is naturally that I turned to them for my first long internship at UTBM. During this second internship, I took an even more active part in the development of the application because, in addition to developing mini-games, I was able to develop new features and even be in charge of updates, from programming to publishing on iOS and Android. In particular, I developed the new registration page of the application, a 3D chase or the mini-game for the Game Designer job. I was also in charge of the WebGL porting, bringing its share of challenges, especially on data management. \n\n I am still working on OnyXP as part of an Innovative Industrial Project allowed by my school. \n\n It's an enriching project, I developed a lot of skills, especially on Unity3D, but also on the way of working in a company and on communication. \n\n From my first interview, I immediately felt part of the team. I couldn't have hoped for a better first professional experience as a developer. I would like to thank them again for their complete trust! \n\n Site : <a href=\"https://par-cours-par-themes.com\">https://par-cours-par-themes.com</a> \n\n @2021 Par Cours et Par Thèmes. All rights reserved",
+  "Date": 2020,
+  "Period": "April 2018 - In progress...",
+  "Type": "Development of a serious game",
+  "Personal": false,
+  "Category": "Dev",
+  "Tags": ["#internship", "#freelance", "#unity3d", "#game"],
+  "Images": [
+    [0, "onyxp.jpg", "OnyXP.io logo"],
+    [1, "onyxp2.jpg", "Screenshot of the mini-game of the Multipurpose Intervention Technician"],
+    [2, "onyxp3.jpg", "Capture of the chase scene"],
+    [3, "onyxp4.jpg", "Screenshot of the Game Designer mini-game"],
+    [4, "onyxp5.jpg", "Screenshot of the Game Designer mini-game"]
+  ],
+  "Hidden": false
+}

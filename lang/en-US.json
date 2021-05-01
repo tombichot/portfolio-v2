@@ -1,0 +1,32 @@
+{
+  "navmenu": {
+    "about": "About",
+    "languages": "Languages",
+    "french": "French",
+    "english": "English",
+    "frenchflag": "French flag",
+    "englishflag": "English flag",
+    "darkmode": "Dark mode",
+    "lightmode": "Light mode",
+    "theme": "Theme",
+    "settings": "Settings"
+  },
+  "presentation": {
+    "logodescription": "Personal creation representing a doe in reference to my last name",
+    "mypresentation": "Computer science student, gamer and big dreamer. I love tech and science!",
+    "profilepicture": "My stylized profile picture",
+    "resume": "My resume",
+    "hi": "Hi!",
+    "welcome": "Welcome!",
+    "cvlink": "/Thomas_BICHOT_CV_2021_EN.pdf",
+    "linkedin": "My LinkedIn profile"
+  },
+  "portfolio": {
+    "all": "All",
+    "more": "More",
+    "creation" : "Creations",
+    "development": "Development"
+  },
+  "infos": "This site was developed by Thomas Bichot with NuxtJS and TailwindCSS.",
+  "copyright": "©2021 Thomas Bichot. All rights reserved."
+}

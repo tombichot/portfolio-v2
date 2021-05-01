@@ -1,0 +1,18 @@
+{
+  "ID": 2,
+  "Title" : "Minesweeper",
+  "Summary":"Minesweeper game in Java, project developed with 6 other students during my Associate’s Degree.",
+  "Description": "Minesweeper game in Java, student project developed with 6 other students during my Associate’s Degree. \n\n This is the first big project developed during my DUT. We were indeed 7 students on this project which was tutored. I was the leader of this project. I was also in charge of the design of the game and the development of some features. \n\n It's a classic version of the deminer with 3 levels of difficulty, sounds and score management. What I remember most is the management of the project which was a small challenge at the time since we were 7 students. It is important to be precise in the distribution of tasks and rigorous in their follow-up so as not to lose track and be efficient in this kind of case. From this point of view, it was a very rewarding project",  "Date": 2017,
+  "Period": "February 2017 - June 2017",
+  "Type": "Game development",
+  "Personal": false,
+  "Category": "Dev",
+  "Tags": ["#student", "#java", "#javaswing", "#game"],
+  "Images": [
+    [0, "minesweeper1.jpg", "Screenshot of the game menu"],
+    [1, "minesweeper2.jpg", "Screenshot of the beginner mode"],
+    [2, "minesweeper3.jpg", "Screenshot of the normal mode"],
+    [3, "minesweeper4.jpg", "Screenshot of the expert mode"]
+  ],
+  "Hidden": false
+}

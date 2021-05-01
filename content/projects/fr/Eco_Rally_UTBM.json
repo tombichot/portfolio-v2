@@ -1,0 +1,18 @@
+{
+	"ID": 3,
+	"Title" : "Eco Rally",
+	"Summary":"Jeu de rally en 2D en Java, projet étudiant développé en binôme.",
+  "Description": "Jeu de rallye en 2D en Java, projet étudiant développé en binôme avec Maxime LUCAS. \n\n Pour ce projet nous avons choisi de faire un jeu de rallye en 2D. C'est le projet le moins abouti de mon portfolio. J'ai quand même décidé de le garder car il était assez technique pour ma part. J'étais chargé de m'ocupper de la partie course, et Maxime de la partie magasin et personnalisation du véhicule. \n\n Nous étions libres pour language, mais nous ne pouvions pas utiliser de moteur de jeu poussé tel qu'Unity, et c'est pour cela que j'ai décidé de le présenter ici. Après une phase de recherche, j'ai décidé d'utiliser le moteur JBox2D pour la physique et JavaFX pour l'affichage. Le plus compliqué a été de gérer de manière correcte les collisions avec JBox2D, et cela en adéquation avec ce qui était affiché par JavaFX. J'ai également mis en place un algorithme pour générer un terrain praticable automatiquement. \n\n Nous avons cependant manqué de temps pour mettre en commun notre travail ce qui nous aurait permis de proposer un jeu complet. Néanmoins la note que nous avions obtenu était plutôt bonne du fait du travail important accomplis et il m'aura permis de sortir de ma zone de confort.",
+	"Date": 2018,
+  "Period": "Septembre 2018 - Décembre 2018",
+ 	"Type": "Développement d'un jeu",
+	"Personal": false,
+  "Category": "Dev",
+  "Tags": ["#étudiant", "#java", "#javafx", "#jbox2d", "#jeu"],
+	"Images": [
+		[0, "eco_rally1.jpg", "Capture d'écran de l'écran titre du jeu"],
+		[1, "eco_rally2.jpg", "Capture d'écran du menu du jeu"],
+		[2, "eco_rally3.jpg", "Capture d'écran d'une course"]
+  ],
+  "Hidden": true
+}

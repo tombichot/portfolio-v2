@@ -1,0 +1,16 @@
+{
+  "ID": 11,
+  "Title" : "Project Heroes",
+  "Summary":"Prototype survival game based on the zombie mode of Call Of Duty, but much more fun!",
+  "Description": "Prototype of a survival game based on the zombie mode of Call Of Duty, but much more fun! After working a lot with Unity3D, I decided to use it for a little game I've been thinking about for some time: a game based on the zombie mode of Call Of Duty. So I started working on a prototype for mobile. \n\n After making this very simple prototype, I think I'm going to develop my idea not for mobile but rather for PC where I'll feel less cramped. I will also use the Unreal Engine instead of Unity. This will allow me to get up to speed with this engine and to redo a little C++ after a lot of C#. \n\n Future to follow! \n\n Link to a small demo : <a href=\"https://youtu.be/4L6oAnWarZo\">https://youtu.be/4L6oAnWarZo</a>",
+  "Date": 2020,
+  "Period": "July 2020 - In progress...",
+  "Type": "Game development",
+  "Personal": false,
+  "Category": "Dev",
+  "Tags": ["#personal", "#project", "unity3d", "unrealengine", "#game"],
+  "Images": [
+    [0, "project_heroes1.jpg", "Screenshot of the prototype"]
+  ],
+  "Hidden": true
+}

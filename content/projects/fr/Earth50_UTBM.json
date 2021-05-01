@@ -1,0 +1,19 @@
+{
+	"ID": 12,
+	"Title" : "Earth50",
+	"Summary":"Jeu de survie en VR développé avec Unity dans le cadre d'un projet étudiant.",
+	"Description": "Jeu de survie en VR développé avec Unity, projet étudiant développé en binôme avec Maxime LUCAS. \n\n Le jeu immerge le joueur dans un monde médiéval alternatif après une téléportation. C'est d'ailleurs de là que vient le nom, Earth50, à la manière des comics et de leurs Terre alternatives. Malheureusement pour lui, le joueur a été suivi par une horde de robots et doit survivre en attendant l'équipe de secours. Pour cela, il utilisera les armes dont ils disposent, à savoir 2 pistolets et une hache magique. Promis on la rendra à Kratos... \n\n Ce projet nous a permis de nous familiariser avec le développement en VR et ses spécificités telle que la gestion des mains pour interagir avec ce qui nous entoure. C'est un projet très complet, car il est totalement jouable et dispose d'un petit scénario, d'animations (Mixamo), de sons ainsi que d'effets visuels. \n\n Vidéo de gameplay : <a href=\"https://youtu.be/pL57tb2NyjI\">https://youtu.be/pL57tb2NyjI</a>",
+	"Date": 2020,
+	"Period": "Octobre 2020 - Décembre 2020",
+	"Type": "Développement d'un jeu",
+	"Personal": false,
+	"Category": "Dev",
+	"Tags": ["#étudiant", "#unity3d", "#jeu", "#vr"],
+	"Images": [
+		[0, "earth50_1.jpg", "Logo d'Earth50"],
+		[1, "earth50_2.jpg", "Capture d'écran du jeu"],
+		[2, "earth50_3.jpg", "Capture d'écran du jeu"],
+		[3, "earth50_4.jpg", "Capture d'écran du jeu"]
+  ],
+  "Hidden": false
+}
