@@ -27,7 +27,6 @@ module.exports = {
     backgroundOpacity: ['responsive', 'hover', 'focus', 'active', 'group-hover', 'dark']
   },
   plugins: [
-    require('@tailwindcss/ui'),
     require('tailwindcss-dark-mode')()
   ],
   purge: {

@@ -106,6 +106,11 @@ export default {
           'focus-within-pseudo-class': false
         }
       }
+    },
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-private-methods', { loose: true }]
+      ]
     }
   },
   loaders: [
