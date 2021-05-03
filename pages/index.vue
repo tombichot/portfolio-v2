@@ -92,7 +92,6 @@
 export default {
   data () {
     return {
-      title: 'Thomas Bichot',
       isOpen: false,
       navmenuIsOpen: false
     }
@@ -104,16 +103,6 @@ export default {
     },
     toggle () {
       this.$colorMode.preference = this.$colorMode.value === 'light' ? 'dark' : 'light'
-    }
-  },
-  head () {
-    return {
-      title: this.title,
-      meta: [{
-        hid: 'Thomas Bichot',
-        name: 'Thomas Bichot',
-        content: 'Computer science student, developer and freelancer !'
-      }]
     }
   }
 }
