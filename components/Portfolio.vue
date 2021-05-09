@@ -2,24 +2,24 @@
   <div>
     <div>
       <div class="flex w-full justify-center mx-auto px-2">
-        <div class="tag-list flex rounded-md shadow bg-white dark:bg-gray-700">
+        <div class="tag-list flex rounded-md shadow bg-white dark:bg-gray-700 focus:outline-none">
           <button
             id="tag-0"
-            class="tag-item inline-block rounded-md px-3 py-2 text-sm md:text-base font-semibold text-gray-700 dark:text-gray-200 mx-1 focus:outline-none"
+            class="tag-item inline-block rounded-md px-3 py-2 text-sm md:text-base font-semibold text-gray-700 dark:text-gray-200 mx-1 outline-none focus:outline-none"
             @click="changeTag(0)"
           >
             {{ $t('portfolio.all') }}
           </button>
           <button
             id="tag-1"
-            class="tag-item inline-block rounded-md px-3 py-2 text-sm md:text-base font-semibold text-gray-700 dark:text-gray-200 mx-1 focus:outline-none"
+            class="tag-item inline-block rounded-md px-3 py-2 text-sm md:text-base font-semibold text-gray-700 dark:text-gray-200 mx-1 outline-none focus:outline-none"
             @click="changeTag(1)"
           >
             {{ $t('portfolio.development') }}
           </button>
           <button
             id="tag-2"
-            class="tag-item inline-block rounded-md px-3 py-2 text-sm md:text-base font-semibold text-gray-700 dark:text-gray-200 mx-1 focus:outline-none"
+            class="tag-item inline-block rounded-md px-3 py-2 text-sm md:text-base font-semibold text-gray-700 dark:text-gray-200 mx-1 outline-none focus:outline-none"
             @click="changeTag(2)"
           >
             {{ $t('portfolio.creation') }}
@@ -117,7 +117,7 @@ export default {
 }
 
 .tag-item {
-  transition: 0.3s;
+  transition: 0.4s;
   z-index: 2;
   position: relative;
 }
@@ -129,9 +129,8 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #edf2f7;
   opacity: 0;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .tag-indicator {
@@ -140,6 +139,16 @@ export default {
   bottom: 0;
   transition: 0.4s;
   z-index: 1;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+button:active {
+  outline: none;
+  border: none;
 }
 
 @media (max-width: 580px) {

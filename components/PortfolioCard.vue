@@ -18,22 +18,22 @@
     <div
       v-show="modal"
       :id="'modal-' + id"
-      class="modal flex items-center fixed left-0 bottom-0 w-full h-full bg-white dark:bg-black bg-opacity-25 dark:bg-opacity-75 z-50 overflow-y-auto"
+      class="w-full h-full flex fixed left-0 bottom-0 bg-white dark:bg-black bg-opacity-25 dark:bg-opacity-75 z-50"
       role="dialog"
       aria-modal="true"
       style="backdrop-filter: blur(25px);"
       @click.stop
       @click="hideModal()"
     >
-      <div class="w-full flex flex-wrap md:w-10/12 lg:w-8/12 xl:w-1/2 h-full mx-auto">
-        <div class="w-full bg-white dark:bg-gray-700 rounded-lg shadow-xl mx-auto mt-auto" @click.stop>
+      <div class="w-full h-full flex flex-wrap content-center md:w-10/12 lg:w-8/12 xl:w-1/2 mx-auto pt-6 px-3 md:px-0">
+        <div class="w-full bg-white dark:bg-gray-700 rounded-lg shadow-xl mx-auto overflow-y-auto" style="max-height: 90%;" @click.stop>
           <div class="flex flex-wrap w-full relative items-center">
             <div class="flex items-center relative w-full h-full rounded-t-lg bg-black overflow-hidden">
-              <div :id="'scroll' + images[0][1]" class="w-full flex bg-black h-full items-center">
+              <div :id="'scroll' + images[0][1]" class="w-full flex bg-black items-center">
                 <picture>
                   <source :srcSet="require('~/content/projects/images/' + images[currentImage][1] + '?webp')" type="image/webp">
                   <source :srcSet="require('~/content/projects/images/' + images[currentImage][1])" type="image/jpeg">
-                  <img :id="images[0][1]" class="w-full object-contain rounded-t-md" :src="require('~/content/projects/images/' + images[currentImage][1])" :alt="images[currentImage][2]" style="height: 400px;">
+                  <img :id="images[0][1]" class="w-full object-contain rounded-t-md h-80 md:h-96" :src="require('~/content/projects/images/' + images[currentImage][1])" :alt="images[currentImage][2]">
                 </picture>
               </div>
               <div v-if="images.length > 0" class="absolute bottom-5 flex w-full h-5">
@@ -91,15 +91,15 @@
               <!-- eslint-disable-next-line vue/no-v-html -->
               <p class="text-gray-700 dark:text-gray-200 text-base" v-html="description.replace(/(?:\r\n|\r|\n)/g, '<br />')" />
               <div class="flex">
-                <div class="ml-auto mt-4 mb-2 text-right">
-                  <span v-for="tag in tags" :key="tag" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mt-1 mb-1">{{ tag }}</span>
+                <div class="mx-auto md:mr-0 md:ml-auto mt-4 mb-2 text-center">
+                  <span v-for="tag in tags" :key="tag" class="inline-block bg-gray-200 rounded-md px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mt-1 mb-1">{{ tag }}</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="w-full items-center pt-4 pb-4 md:mb-auto">
-          <button class="flex items-center w-12 h-12 mx-auto p-2 rounded-full bg-white dark:bg-gray-700 shadow-lg border-gray-900 dark:border-gray-600 text-gray-700 border-gray-200 focus:outline-none" @click="hideModal()">
+        <div class="w-full flex-grow pt-4 pb-8 md:pb-6">
+          <button class="flex items-center w-12 h-12 mx-auto p-2 rounded-full bg-white dark:bg-gray-700 shadow-lg border-gray-100 dark:border-gray-600 text-gray-700 border-gray-200 focus:outline-none" @click="hideModal()">
             <picture>
               <source :srcSet="require('~/assets/images/cross_black.png?webp')" type="image/webp">
               <source :srcSet="require('~/assets/images/cross_black.png')" type="image/png">
@@ -114,15 +114,15 @@
         </div>
       </div>
     </div>
-    <div v-show="fullscreen" class="flex flex-wrap fixed left-0 bottom-0 w-full h-full items-center bg-black z-50 overflow-y-auto content-center" @click.stop>
-      <div class="flex w-full h-9/12 p-5 md:p-10 justify-center block">
+    <div v-show="fullscreen" class="flex flex-wrap fixed left-0 bottom-0 w-full h-full items-center bg-black z-50 overflow-y-auto content-center py-12 md:py-0" @click.stop>
+      <div class="flex w-full h-3/4 p-5 md:p-10 justify-center block">
         <picture>
           <source :srcSet="require('~/content/projects/images/' + images[currentImage][1] + '?webp')" type="image/webp">
           <source :srcSet="require('~/content/projects/images/' + images[currentImage][1])" type="image/jpeg">
           <img :id="'fullscreen-' + images[0][1]" class="w-full h-full object-contain reflexion" :src="require('~/content/projects/images/' + images[currentImage][1])" :alt="images[currentImage][2]">
         </picture>
       </div>
-      <div class="flex w-full h-3/12 justify-center items-center p-10 overflow-x-scroll">
+      <div class="flex w-full h-1/4 justify-center items-center p-10 overflow-x-scroll">
         <button
           v-for="image in images"
           :key="image[0]"
@@ -132,7 +132,7 @@
           <picture>
             <source :srcSet="require('~/content/projects/images/' + image[1] + '?webp')" type="image/webp">
             <source :srcSet="require('~/content/projects/images/' + image[1])" type="image/jpeg">
-            <img :id="'list-fullscreen-' + image[1]" class="object-contain inline-block" :src="require('~/content/projects/images/' + image[1])" :alt="image[2]" style="max-height: 120px;">
+            <img :id="'list-fullscreen-' + image[1]" class="object-contain inline-block max-h-10 md:max-h-16" :src="require('~/content/projects/images/' + image[1])" :alt="image[2]">
           </picture>
         </button>
       </div>
