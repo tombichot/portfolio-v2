@@ -35,12 +35,13 @@
         <PortfolioCard
           v-for="project in projects"
           :id="project.ID"
+          :ref="'card' + project.ID"
           :key="project.ID"
           :title="project.Title"
           :images="project.Images"
           :summary="project.Summary"
           :period="project.Period"
-          :description="project.Description"
+          :markdown-file="project.MarkdownFile"
           :tags="project.Tags"
         />
       </div>
@@ -97,7 +98,10 @@ export default {
 
       this.$fetch()
     },
-    updateManually () {
+    refresh () {
+      Object.keys(this.$refs).forEach((ref) => {
+        this.$refs[ref][0].refresh()
+      })
       setTimeout(() => this.changeTag(this.currentTag), 100)
     }
   }

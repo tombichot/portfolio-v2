@@ -18,15 +18,14 @@
     <div
       v-show="modal"
       :id="'modal-' + id"
-      class="w-full h-full flex fixed left-0 bottom-0 bg-white dark:bg-black bg-opacity-25 dark:bg-opacity-75 z-50"
+      class="w-full h-full flex fixed left-0 bottom-0 bg-white dark:bg-black bg-opacity-25 dark:bg-opacity-75 z-50 backdrop-filter-25"
       role="dialog"
       aria-modal="true"
-      style="backdrop-filter: blur(25px);"
       @click.stop
       @click="hideModal()"
     >
       <div class="w-full h-full flex flex-wrap content-center md:w-10/12 lg:w-8/12 xl:w-1/2 mx-auto pt-6 px-3 md:px-0">
-        <div class="w-full bg-white dark:bg-gray-700 rounded-lg shadow-xl mx-auto overflow-y-auto" style="max-height: 90%;" @click.stop>
+        <div class="w-full bg-white dark:bg-gray-700 rounded-lg shadow-xl mx-auto overflow-y-auto max-height-90" @click.stop>
           <div class="flex flex-wrap w-full relative items-center">
             <div class="flex items-center relative w-full h-full rounded-t-lg bg-black overflow-hidden">
               <div :id="'scroll' + images[0][1]" class="w-full flex bg-black items-center">
@@ -53,7 +52,7 @@
                     <picture>
                       <source :srcSet="require('~/assets/images/left.png?webp')" type="image/webp">
                       <source :srcSet="require('~/assets/images/left.png')" type="image/png">
-                      <img class="h-full w-full p-1" :src="require('~/assets/images/left.png')" alt="Left icon" style="margin-left: -1px; opacity: 0.8;">
+                      <img class="h-full w-full p-1 left-arrow" :src="require('~/assets/images/left.png')" alt="Left icon">
                     </picture>
                   </button>
                 </div>
@@ -64,7 +63,7 @@
                     <picture>
                       <source :srcSet="require('~/assets/images/right.png?webp')" type="image/webp">
                       <source :srcSet="require('~/assets/images/right.png')" type="image/png">
-                      <img class="h-full w-full p-1" :src="require('~/assets/images/right.png')" alt="Right icon" style="margin-left: 1px; opacity: 0.8;">
+                      <img class="h-full w-full p-1 right-arrow" :src="require('~/assets/images/right.png')" alt="Right icon">
                     </picture>
                   </button>
                 </div>
@@ -88,8 +87,10 @@
               <div class="font-bold text-gray-400 text-sm mb-2">
                 {{ period }}
               </div>
-              <!-- eslint-disable-next-line vue/no-v-html -->
-              <p class="text-gray-700 dark:text-gray-200 text-base" v-html="description.replace(/(?:\r\n|\r|\n)/g, '<br />')" />
+              <div class="text-gray-700 dark:text-gray-200 text-base">
+                <nuxt-content :document="markdown" />
+              </div>
+              <!-- <p class="text-gray-700 dark:text-gray-200 text-base" v-html="description.replace(/(?:\r\n|\r|\n)/g, '<br />')" /> -->
               <div class="flex">
                 <div class="mx-auto md:mr-0 md:ml-auto mt-4 mb-2 text-center">
                   <span v-for="tag in tags" :key="tag" class="inline-block bg-gray-200 rounded-md px-3 py-1 text-sm font-semibold text-gray-700 ml-1 mr-1 mt-1 mb-1">{{ tag }}</span>
@@ -169,7 +170,7 @@ export default {
       type: String,
       default: ''
     },
-    description: {
+    markdownFile: {
       type: String,
       default: ''
     },
@@ -182,6 +183,9 @@ export default {
       default: () => []
     }
   },
+  async fetch () {
+    this.markdown = await this.$content('projects/' + this.$i18n.locale + '/markdowns/' + this.markdownFile).fetch()
+  },
   data () {
     return {
       modal: false,
@@ -189,7 +193,8 @@ export default {
       fullscreen: false,
       leftArrow: false,
       rightArrow: false,
-      currentImage: 0
+      currentImage: 0,
+      markdown: ''
     }
   },
   methods: {
@@ -262,6 +267,9 @@ export default {
     },
     closeFullscreen () {
       this.fullscreen = false
+    },
+    refresh () {
+      this.$fetch()
     }
   }
 }
@@ -306,4 +314,24 @@ export default {
 .reflexion {
   -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.2)));
 }
+
+.nuxt-content h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.max-height-90 {
+  max-height: 90%;
+}
+
+.left-arrow {
+  margin-left: -1px;
+  opacity: 0.8;
+}
+
+.right-arrow {
+  margin-left: 1px;
+  opacity: 0.8;
+}
+
 </style>

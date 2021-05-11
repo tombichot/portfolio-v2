@@ -1,0 +1,4 @@
+Teeko game with a small artificial intelligence (MinMax algorithm) in Python, a student project developed in duo with Maxime Lucas. 
+<br>
+<br>
+The goal of this game is to place 4 pawns on a board and then align them horizontally, vertically or diagonally, or to make a square of four adjacent squares. We had to realize an AI by applying the MinMax algorithm seen in this game. To optimize our AI, we also applied an Alpha-Beta pruning reducing the number of unnecessary cases to explore. The player had access to 3 game modes: Player vs Player, Player vs AI, AI vs AI. The strength of the AI was also configurable by playing on the depth of search in the tree of possibilities.

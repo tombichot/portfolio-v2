@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-50 dark:bg-black flex rounded-md">
-    <nav class="flex justify-between shadow-lg fixed bg-white bg-opacity-100 md:bg-opacity-75 dark:bg-opacity-100 md:dark:bg-opacity-75 dark:bg-black w-screen z-50 border-gray-100 dark:border-opacity-10" style="backdrop-filter: blur(25px); -webkit-backdrop-filter: blur(25px); border-bottom-width: 1px;">
+    <nav class="flex justify-between shadow-lg fixed bg-white bg-opacity-100 md:bg-opacity-75 dark:bg-opacity-100 md:dark:bg-opacity-75 dark:bg-black w-screen z-50 border-gray-100 dark:border-opacity-10 backdrop-filter-25 custom-border">
       <div class="custom-body w-full mx-auto">
         <div class="w-full md:w-10/12 lg:w-10/12 xl:w-8/12 mx-auto p-6 flex">
           <div class="w-9 md:inline-block">
@@ -99,7 +99,7 @@ export default {
   methods: {
     changeLanguage (lang) {
       this.$i18n.locale = lang
-      this.$refs.portfolio.updateManually()
+      this.$refs.portfolio.refresh()
     },
     toggle () {
       this.$colorMode.preference = this.$colorMode.value === 'light' ? 'dark' : 'light'
@@ -133,5 +133,14 @@ export default {
   input:checked ~ .toggle__icon {
     top: 0.5rem;
     left: -1.25rem;
+  }
+
+  .backdrop-filter-25 {
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+  }
+
+  .custom-border {
+    border-bottom-width: 1px;
   }
 </style>

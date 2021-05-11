@@ -1,0 +1,10 @@
+Développement d'un mini réseau social sous forme d'application iOS en Swift. 
+<br>
+<br>
+C'est mon projet le plus ancien (si on oublie la petite application lampe torche développée pour BadaOS). J'ai commencé à travailler dessus lorsque j'étais au lycée. L'idée était de faire un réseau social basé sur la position à la manière de ce que l'application Happn (qui n'existait encore pas à l'époque) propose. L'application s'appelait Proxymity et c'était d'abord uniquement des maquettes sur papier puis réalisées avec Photoshop. Avec l'arrivée du langage Swift sur iOS, j'ai commencé le développement en changeant un peu l'idée de base et le nom qui est devenu Near. Toute la partie backend était gérée avec Parse. L'application avait déjà quelques fonctionnalités dont la fonctionnalité principale à savoir laisser un message avec une image sur une carte à des coordonnées précises. Ce message était ensuite visible par les autres utilisateurs. 
+<br>
+<br>
+Parse est ensuite devenu open-source, j'ai continué à l'utiliser un temps. Suite à la sortie d'une nouvelle version majeure de Swift (Swift 3.0 ?), j'ai décidé de rebooter le projet en utilisant cette fois-ci Firebase pour le backend. J'ai également intégralement revu le design de l'application. 
+<br>
+<br>
+C'est un projet que je n'ai malheureusement jamais terminé faute de temps, mais aussi par choix, les contreverses notamment autour du respect de la vie privée qui ont commencé à naître autour de Facebook m'ont fait beaucoup réfléchir. Cela reste néanmoins un beau projet, car c'est avec celui-ci que j'ai vraiment découvert le code et la création de visuels. C'était d'autant plus formateur que j'ai toujours cherché les solutions par moi-même. C'était un bon complément à ma formation et à tous les autres projets de groupe que j'ai pu faire par la suite.

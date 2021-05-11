@@ -17,6 +17,14 @@
         </div>
       </div>
     </div>
-    <div class="bg-gray-300 mt-6 mb-12 mx-auto md:mx-0" style="height: 2px; width: 150px;" />
+    <div class="bg-gray-300 mt-6 mb-12 mx-auto md:mx-0 seperator" />
   </div>
 </template>
+
+<style>
+.seperator {
+  height: 2px;
+  width: 150px;
+}
+
+</style>
