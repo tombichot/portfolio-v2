@@ -21,4 +21,4 @@ Dès mon premier entretien je me suis tout de suite sentie intégré à l'équip
 <ins style="color:DodgerBlue;">[Site de Par Cours & Par Thèmes](https://par-cours-par-themes.com)</ins>
 <br>
 <br>
-<i> @2021 Par Cours & Par Thèmes. Tous droits réservés.</i>
+<i> @2022 Par Cours & Par Thèmes. Tous droits réservés.</i>

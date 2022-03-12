@@ -23,4 +23,4 @@ From my first interview, I immediately felt part of the team. I couldn't have ho
 <ins style="color:DodgerBlue;">[Par Cours & Par Thèmes's website](https://par-cours-par-themes.com)</ins>
 <br>
 <br>
-<i>@2021 Par Cours & Par Thèmes. All rights reserved.</i>
+<i>@2022 Par Cours & Par Thèmes. All rights reserved.</i>

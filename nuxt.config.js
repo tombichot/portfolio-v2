@@ -14,10 +14,13 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '| Portfolio | Computer science student, gamer and big dreamer. I love tech and science!                                                                                                                                                ' }
+      { hid: 'description', name: 'description', content: '| Portfolio | Computer science student, gamer and big dreamer. I love tech and science!' },
+      { name: 'apple-mobile-web-app-capable', content: 'yes' },
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', type: 'image/png', href: '/apple-touch-icon.png' }
     ]
   },
   /*

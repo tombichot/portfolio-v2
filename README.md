@@ -17,7 +17,7 @@ $ npm run dev
 
 ### VPS
 ```
-$ pm2 stop (npm)
+$ pm2 stop thomasbichot.com 
 $ npm run build
-$ pm2 start (npm) -- start
+$ pm2 start -- start
 ```

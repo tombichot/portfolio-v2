@@ -65,7 +65,7 @@
       <Portfolio ref="portfolio" />
       <div class="w-full flex md:w-10/12 lg:w-10/12 xl:w-8/12 mx-auto p-6 mt-6">
         <span class="w-auto flex-grow inline-block text-gray-400 text-bold">
-          Thomas Bichot © 2021
+          Thomas Bichot © {{currentYear}}
         </span>
         <div class="w-auto flex flex-wrap content-center justify-end">
           <a class="mr-6" href="https://linkedin.com/in/thomas-bichot" target="_blank">
@@ -92,6 +92,7 @@
 export default {
   data () {
     return {
+      currentYear: new Date().getFullYear(),
       isOpen: false,
       navmenuIsOpen: false
     }

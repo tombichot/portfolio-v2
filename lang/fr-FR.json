@@ -13,7 +13,7 @@
   },
   "presentation": {
     "logodescription": "Création personnelle représentant une biche en référence à mon nom de famille.",
-    "mypresentation": "Étudiant en informatique, gamer et grand rêveur. J'adore la tech et la science !",
+    "mypresentation": "Ingénieur logiciel, gamer et grand rêveur. J'adore la tech et la science !",
     "profilepicture": "Ma photo de profil stylisée.",
     "resume": "Mon CV",
     "hi": "Bonjour !",
@@ -27,5 +27,5 @@
     "development": "Développement"
   },
   "infos": "Développé par Thomas Bichot avec NuxtJS et TailwindCSS.",
-  "copyright": "©2021 Thomas Bichot. Tous droits réservés."
+  "copyright": "©2022 Thomas Bichot. Tous droits réservés."
 }
