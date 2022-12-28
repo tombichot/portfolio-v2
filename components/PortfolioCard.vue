@@ -334,4 +334,8 @@ export default {
   opacity: 0.8;
 }
 
+.w-full .flex .bg-black .items-center {
+  display: block;
+}
+
 </style>
