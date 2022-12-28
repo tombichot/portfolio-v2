@@ -130,11 +130,7 @@ export default {
   purgeCSS: {
     whitelist: ['dark-mode']
   },
-  privateRuntimeConfig: {
-    gmailUser: process.env.GMAIL_USER,
-    gmailPass: process.env.GMAIL_PASS,
-    gmailReceiver: process.env.GMAIL_RECEIVER
-  },
+  privateRuntimeConfig: {},
   server: {
     port: 3000, // default: 3000
     host: '0.0.0.0' // default: localhost
