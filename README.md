@@ -15,9 +15,8 @@ Then install the various components required like TailwindCSS.
 $ npm run dev
 ```
 
-### VPS
+### Server
 ```
-$ pm2 stop thomasbichot.com 
 $ npm run build
 $ pm2 start -- start
 ```
