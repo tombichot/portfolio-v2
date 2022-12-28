@@ -68,18 +68,18 @@
           Thomas Bichot © {{currentYear}}
         </span>
         <div class="w-auto flex flex-wrap content-center justify-end">
-          <a class="mr-6" href="https://linkedin.com/in/thomas-bichot" target="_blank">
+          <a class="mr-6" href="https://github.com/tombichot" target="_blank">
+            <picture>
+              <source :srcSet="require('~/assets/images/github.png?webp')" type="image/webp">
+              <source :srcSet="require('~/assets/images/github.png')" type="image/png">
+              <img class="object-scale-down h-7 w-7" :src="require('~/assets/images/github.png')" alt="Github icon">
+            </picture>
+          </a>
+          <a href="https://linkedin.com/in/thomas-bichot" target="_blank">
             <picture>
               <source :srcSet="require('~/assets/images/linkedin.png?webp')" type="image/webp">
               <source :srcSet="require('~/assets/images/linkedin.png')" type="image/png">
               <img class="object-scale-down h-7 w-7" :src="require('~/assets/images/linkedin.png')" alt="Linkedin icon">
-            </picture>
-          </a>
-          <a href="https://twitter.com/TomBichot" target="_blank">
-            <picture>
-              <source :srcSet="require('~/assets/images/twitter.png?webp')" type="image/webp">
-              <source :srcSet="require('~/assets/images/twitter.png')" type="image/png">
-              <img class="object-scale-down h-7 w-7" :src="require('~/assets/images/twitter.png')" alt="Twitter icon">
             </picture>
           </a>
         </div>
